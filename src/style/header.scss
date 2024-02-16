@@ -1,0 +1,38 @@
+.header{
+  background-color: #151515;
+}
+.header-main{
+  background-color: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 0;
+  right: 0;
+}
+.header__inner {
+  padding: 40px 0 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo__img {
+  width: 83px;
+  height: 55px;
+
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+}
+.menu__list-link{
+  cursor: pointer;
+    color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  &:active{
+    color: #0066FF;
+  }
+}

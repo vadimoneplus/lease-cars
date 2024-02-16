@@ -1,0 +1,43 @@
+.footer{
+  padding: 50px 0 32px;
+  background-color: #151515;
+  color: white;
+}
+
+.footer__menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer__menu-title{
+  margin-bottom: 40px;
+}
+.footer__menu-item{
+  margin-bottom: 20px;
+}
+.app-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  margin: 30px 0 50px;
+}
+.footer__copy{
+  margin: 0 auto;
+  max-width: 806px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer__text{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.copy__nav-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+}
